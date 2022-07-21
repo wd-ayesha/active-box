@@ -1,0 +1,151 @@
+/*small device code*/
+@media (min-width: 0px) and (max-width: 576px){
+	/*navbar start*/
+	.navbar{
+    border-bottom: none;
+	}
+	.navbar-toggler{
+    margin-bottom: 10px;
+	}
+	.navbar-nav .nav-link{
+	    font-size: 13px;
+	    font-weight: 600;
+	    max-width: 140px;
+	    margin-left: auto;
+	    text-align: center;
+	    border-bottom: 1px solid #fff;
+	    background: rgba(0, 0, 0, 0.5);
+	    font-family: 'Raleway', sans-serif;
+	}
+	/* header start */
+	.banner h1{
+	    font-size: 35px;
+	    padding-top: 40px;
+	    margin: 0px;
+	}
+	.banner p{
+	    font-size: 16px;
+	    padding: 10px;
+	}
+	.banner a{
+	    font-size: 10px;
+	    font-weight: 500;
+	}
+	/*team start*/
+	.team{
+	    padding-top: 50px;
+	    margin-bottom: 5px;
+	}
+	.team-content{
+	    text-align: center;
+	}
+	.team h4{
+	    padding-top: 20px;
+	}
+	.team p{
+	    padding-top: 18px;
+	}
+	/*team end*/
+}
+/*medium device code*/
+@media (min-width: 577px) and (max-width: 768px){
+	/*navbar start*/
+	.navbar{
+    border-bottom: none;
+	}
+	.nav-item{
+    padding: 0px;
+	}
+	.navbar-toggler{
+    margin-bottom: 10px;
+	}
+	.navbar-nav .nav-link{
+	    font-size: 13px;
+	    font-weight: 600;
+	    max-width: 140px;
+	    margin-left: auto;
+	    text-align: center;
+	    border-bottom: 1px solid #fff;
+	    background: rgba(0, 0, 0, 0.5);
+	    font-family: 'Raleway', sans-serif;
+	}
+	/* header start */
+	.banner h1{
+	    font-size: 45px;
+	    padding-top: 50px;
+	    margin: 0px;
+	}
+	.banner p{
+	    font-size: 17px;
+	    padding: 8px;
+	}
+	.banner a{
+	    font-size: 10px;
+	    font-weight: 500;
+	}
+	/*header end*/
+	/*team start*/
+	.team{
+	    padding: 30px;
+	   
+	}
+	.team-content{
+	    text-align: center;
+	    padding-top: 30px;
+	}
+	.team h4{
+	    padding-top: 22px;
+	}
+	.team p{
+	    padding-top: 18px;
+	}
+	/*team end*/
+}
+/*large device code*/
+@media (min-width: 769px) and (max-width: 992px){
+	/*navbar start*/
+	.navbar{
+    	border-bottom: none;
+	}
+	.nav-item{
+    	padding: 0px;
+	}
+	.navbar-toggler{
+    	margin-bottom: 10px;
+	}
+	.navbar-nav .nav-link{
+	    font-size: 13px;
+	    font-weight: 600;
+	    max-width: 140px;
+	    margin-left: auto;
+	    text-align: center;
+	    border-bottom: 1px solid #fff;
+	    background: rgba(0, 0, 0, 0.5);
+	    font-family: 'Raleway', sans-serif;
+	}
+	/* header start */
+	.banner h1{
+	    font-size: 46px;
+	    padding-top: 52px;
+	    margin: 0px;
+	}
+	.banner p{
+	    font-size: 18px;
+	    padding: 10px 3px;
+	}
+	.banner a{
+	    font-size: 10px;
+	    font-weight: 500;
+	}
+	/*team start*/
+	.team-content{
+		text-align: center;
+	}
+	/*team end*/
+}
+/*extra large device code*/
+@media (min-width: 993px) and (max-width: 1200px){
+	
+}
+
+

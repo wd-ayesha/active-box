@@ -1,0 +1,224 @@
+/* common css start */
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Open+Sans&family=Raleway&display=swap');
+
+.scrolled{
+    background: #e84545;
+    /*opacity: 0.8;*/
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+/* common css end */
+
+/*navbar start*/
+.navbar{
+    border-bottom: 1px solid #66697E;
+    padding: 20px 0px;
+}
+.nav-item{
+    padding: 0px 12px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 600;
+    transition: .5s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #979ab1;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav.nav-link:hover {
+    color: #979ab1;
+}
+.navbar-light .navbar-toggler {
+    color: #66697E;
+}
+/*navbar end*/
+
+/* header start */
+.banner{
+    background-image: url("../images/banner.jpg");
+}
+.banner h1{
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
+    margin: 0px 80px;
+}
+.banner p{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.banner a{
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    background: #e84545;
+    padding: 8px 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+.banner a:hover{
+     color: #e84545;
+     background: #fff;
+}
+/* header end */
+
+/*features start*/
+.features{
+    padding-top: 80px;
+}
+/*features end*/
+
+/* work start */
+.work{
+    padding-top: 80px;
+}
+.work-content{
+    position: relative;
+    overflow: hidden;
+}
+.work-inner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -100px;
+    left: 0px;
+    text-align: center;
+    background: #d34040;
+    opacity: .9;
+    visibility: hidden;
+    transition: .5s ease-in;
+    cursor: pointer;
+    padding-top: 100px;
+    color: #fff;
+}
+.work-inner h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.work-content:hover .work-inner{
+    top: 0px;
+    visibility: visible;
+}
+/*work end*/
+
+/*team start*/
+.team{
+    padding-top: 80px;
+}
+.team-content{
+    text-align: left;
+}
+.team h4{
+    padding-top: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+.team h5{
+    font-family: 'Raleway', sans-serif;
+}
+.team p{
+    padding-top: 18px;
+}
+.team i{
+    padding: 5px;
+    color: #c6cacc;
+    border: 1px solid #c6cacc;
+}
+.fa-facebook-f:before {
+    content: "\f39e";
+    padding: 3px;
+}
+/*team end*/
+
+
+/* testimonial start */
+.testimonials{
+    padding-top: 80px;
+}
+.testimonials .img-fluid{
+    height: 100%;
+}
+.testimonials .carousel-inner{
+    min-height: 355px;
+}
+.carousel-item{
+   padding: 50px;
+   height: auto;
+}
+.carousel-item h2{
+   font-family: 'Cardo', serif; 
+}
+.carousel-inner{
+    background: #53354a;
+    color: #fff;
+}
+.carousel-indicators{
+    padding-bottom: 35px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent; 
+}
+.carousel-indicators .active{
+    background:  #e84545;
+}
+/* testimonial end */
+/* download start */
+.download h3{
+    color: #57595c;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+}
+.download a{
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    background: #e84545;
+    padding: 8px 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+.download a:hover{
+     color: #e84545;
+     background: #fff;
+     border: 1px solid #6C757D;
+}
+/* download end */
+
+
+/* contact start */
+.contact{
+    background: #3a3e64;
+    padding-top: 30px;
+}
+.contact h4{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+.contact i{
+    border: 2px solid #fff;
+    padding: 5px;
+    transition: .5s;
+}
+.contact i:hover{
+    transform: scale(1.2);
+}
+/* contact end */
+/* footer start */
+footer{
+    background: #313454;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+footer a:hover{
+    color: #b60824;
+}
+/* footer end */
+
